@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Este projeto serve para que o usuário possa compartilhar com o mundo seus links mais utilizados.">
+  <meta name="keywords" content="link, compartilhar, redes sociais, url, linktree, linkspace">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Ysmaili Freitas">
+  <title>LinkSpace | Compartilhe Com o Mundo</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+</head>
+<body>
+
+  <!-- LOGO AND NAVBAR -->
+
+  <header class="header">
+    <a class="logo" href="#">LinkSpace</a>
+    <nav>
+      <ul class="nav">
+        <li><a id="btn" class onclick="changeSec()" href="#">Meus Links</a></li>
+        <li><a id="btn2" class onclick="changeSec2()" href="#">Links Que Uso</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN SECTION -->
+
+  <section id="sec1" class="main-sec">
+    <div class="profile">
+      <img src="./img/ysmaili-profile-picture.jpg" alt="Ysmaili Freitas">
+      <p>@ysmailifreitas</p>
+    </div>
+    <ul class="links">
+      <li><a href="https://www.linkedin.com/in/ysmailifreitas" target="_blank">Linkedin</a></li>
+      <li><a href="http://github.com/ysmailifreitas" target="_blank">Github</a></li>
+      <li><a href="https://skiapo.ml" target="_blank">Portfolio</a></li>
+      <li><a href="http://twitter.com/ysmailifreitas" target="_blank">Twitter</a></li>
+      <li><a href="http://instagram.com/ysmaili.freitas" target="_blank">Instagram</a></li>
+      <li><a href="https://allpoetry.com/If-You-Forget-Me" target="_blank">My Fav Poem</a></li>
+    </ul>
+  </section>
+  
+  <!-- MOST USED LINKS SECTION -->
+
+  <section id="sec2" class="links-sec remove">
+    <h1>Links Que Mais Uso</h1>
+    <ul class="links-sec2">
+      <li><a href="https://pexels.com/" target="_blank">Pexels</a></li>
+      <li><a href="http://dontpad.com" target="_blank">Dontpad</a></li>
+      <li><a href="http://fonts.google.com" target="_blank">Google Fonts</a></li>
+      <li><a href="https://www.flaticon.com/" target="_blank">Flaticon</a></li>
+      <li><a href="https://coolors.co/" target="_blank">Coolors</a></li>
+      <li><a href="https://codepen.io/" target="_blank">CodePen</a></li>
+    </ul>
+  </section>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
