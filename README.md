@@ -7,4 +7,4 @@ Este projeto serve para que o usuário possa compartilhar com o mundo seus links
 
 ## Mobile Screenshot
 
-![Alt image](img/mobile-ss.jpg?raw=true "Mobile Screenshot")
+![Alt image](img/mobile-ss.png?raw=true "Mobile Screenshot")
