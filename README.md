@@ -1,10 +1,10 @@
 # LinkSpace
 Este projeto serve para que o usuário possa compartilhar com o mundo seus links mais utilizados.
 
-##Desktop Screenshot
+## Desktop Screenshot
 
 ![Alt image](img/desktop-ss.png?raw=true "Desktop Screenshot")
 
-##Mobile Screenshot
+## Mobile Screenshot
 
-![Alt image](img/mobile-ss.png?raw=true "Mobile Screenshot")
+![Alt image](img/mobile-ss.jpg?raw=true "Mobile Screenshot")
